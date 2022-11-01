@@ -15,7 +15,7 @@ $fileContent = Get-Content $InputFile
 # Initialize output file
 Set-Content -Path $OutputFile -Value 'Reachable IP addresses:'
 
-#Initialize internal variables
+#Initialize counters
 $numLines = $fileContent.Length
 $processedLines = 0
 $validAddresses = 0
